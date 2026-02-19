@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Order</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: url('Photos/Desktop-Free-Food-Images.jpg') no-repeat center fixed;
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 1.8rem;
+            margin-bottom: 40px;
+            color: #FFD93D;
+            text-shadow: 1px 1px 5px black;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.6rem;
+            margin: 0 20px;
+            padding: 12px 30px;
+            border: 2px solid white;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: linear-gradient(90deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF);
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            p { font-size: 1.2rem; }
+            a {
+                font-size: 1.2rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="overlay">
+    <h1>Online Food Ordering</h1>
+    <p>Order delicious food from your favourite restaurants</p>
+    <div>
+        <a href="login.html">Login</a>
+        <a href="registration.html">Register</a>
+        <a href="restaurant">View Restaurants</a>
+    </div>
+</div>
+</body>
+</html>
