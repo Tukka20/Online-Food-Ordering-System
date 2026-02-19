@@ -53,4 +53,23 @@ Tables:
         
 ---------------------------------------------
 
+# Structure
+
+OnlineFoodOrderingApp
+|--src/
+| └── main/
+|      ├── java/
+|      │    ├── Controller
+|      │    ├── dao
+|      │    ├── entity
+|      │    └── Config
+|      └── webapp/
+|          ├── Photos
+|          ├── index.html
+|          ├── login.html
+|          ├── registration.html
+|          ├── cart.html
+|          └── WEB-INF|
+|
+|----- pom.xml
 
