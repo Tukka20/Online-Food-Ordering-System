@@ -81,8 +81,6 @@ OnlineFoodOrderingApp
 
 |              ├── registration.html
 
-|              ├── cart.html
-
 |              └── WEB-INF|
 
 |
