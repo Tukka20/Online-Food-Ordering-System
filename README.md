@@ -45,10 +45,7 @@ Build Tool: Maven
 Database Name: OnlineFoodOrderingApp
 
 Tables:
-        users
-        restaurants
-        menu
-        orders
+        users, restaurants, menu, orders
         
 ---------------------------------------------
 
