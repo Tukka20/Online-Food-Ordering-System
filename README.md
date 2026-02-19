@@ -38,6 +38,10 @@ Server: Apache Tomcat
 
 Build Tool: Maven
 
+Tomcat version -10.1.39
+
+mysql-connector-java version -8.0.30
+
 ---------------------------------------------
 
 # Database
