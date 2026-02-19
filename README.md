@@ -59,31 +59,31 @@ OnlineFoodOrderingApp
 
 |--src/
 
-| └── main/
+|    └── main/
 
-|      ├── java/
+|         ├── java/
 
-|      │    ├── Controller
+|         │    ├── Controller
 
-|      │    ├── dao
+|         │    ├── dao
 
-|      │    ├── entity
+|         │    ├── entity
 
-|      │    └── Config
+|         │    └── Config
 
-|      └── webapp/
+|         └── webapp/
 
-|          ├── Photos
+|              ├── Photos
 
-|          ├── index.html
+|              ├── index.html
 
-|          ├── login.html
+|              ├── login.html
 
-|          ├── registration.html
+|              ├── registration.html
 
-|          ├── cart.html
+|              ├── cart.html
 
-|          └── WEB-INF|
+|              └── WEB-INF|
 
 |
 
