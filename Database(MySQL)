@@ -1,0 +1,55 @@
+CREATE DATABASE OnlineFoodOrderingApp;
+
+USE OnlineFoodOrderingApp;
+
+
+CREATE TABLE users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(50) NOT NULL
+);
+
+
+	CREATE TABLE restaurants (
+		restaurant_id INT AUTO_INCREMENT PRIMARY KEY,
+		restaurant_name VARCHAR(100) NOT NULL
+	);
+
+INSERT INTO restaurants (restaurant_name) VALUES
+('Dominos'),
+('KFC'),
+('Burger King');
+
+select* from restaurants;
+
+
+CREATE TABLE food_items (
+    food_id INT AUTO_INCREMENT PRIMARY KEY,
+    food_name VARCHAR(100) NOT NULL,
+    price INT NOT NULL,
+    restaurant_id INT,
+    FOREIGN KEY (restaurant_id)
+        REFERENCES restaurants(restaurant_id)
+);
+
+INSERT INTO food_items (food_name, price, restaurant_id) VALUES
+('Pizza', 299, 1),
+('Burger', 149, 1),
+('Chicken Bucket', 499, 2),
+('Zinger Burger', 199, 2),
+('Whopper', 249, 3);
+
+select* from food_items;
+
+
+CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_email VARCHAR(100),
+    food_name VARCHAR(100),
+    price int,
+    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+select* from orders;
+
